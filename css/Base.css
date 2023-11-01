@@ -1,0 +1,661 @@
+/*All styles are based on the part of the page they are in. Anything in the header has header in the title. Same goes for the footer. However, the body section has classes based on what
+    part of the pages they're in. Examples - form items start with "form", title items start with "title" (with the exception of h1 and h2), and link items contain "link" in the class
+    name.*/
+
+
+
+/*styles the body and everything in it*/
+body {
+    border: none;
+    padding: 0px;
+    margin: 0px auto;
+    border-collapse: collapse;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: #ffffff;
+    font-family: "nimbus-sans",sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    height: 100%;
+   background-image: url('../imgb/img-gradient.png');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    background-attachment: fixed;
+
+}
+
+/*Styles ALL tables*/
+table {
+    border: none;
+    padding: 0px;
+    margin: 0px auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*Controls the style of the header*/
+.header-menu {
+    background-color: #5b5a5a;
+    background-image: url('../imgb/bg-TopMenu.png');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    vertical-align: top;
+    height: 80px;
+    position:fixed;
+    z-index:10;
+}
+
+    /*Controls the links in the header menu*/
+    .header-menu a:link {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .header-menu a:visited {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .header-menu a:hover {
+        color: #b4926f;
+        text-decoration: none;
+    }
+
+    .header-menu a:active {
+        color: #b4926f;
+        text-decoration: none;
+    }
+
+.content-area {
+    height: 100%;
+    width:100%;
+   background-color:#5a5a5a;
+    background-image: url('../imgb/img-gradient.png');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size: 100% 60%;
+    position:absolute;
+    vertical-align: top;
+    left: 0px;
+    top: 0px;
+}
+
+/*Controls the style of the header*/
+.side-menu {
+    background-color: #5b5a5a;
+    background-image: url('../imgb/img-gradient.png');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    vertical-align: top;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 15%;
+    z-index: 10;
+}
+
+    .side-menu td {
+        vertical-align: top;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+
+    /*Controls the links in the side menu*/
+    .side-menu a:link {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .side-menu a:visited {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .side-menu a:hover {
+        color: #b4926f;
+        text-decoration: none;
+    }
+
+    .side-menu a:active {
+        color: #b4926f;
+        text-decoration: none;
+    }
+
+.rotational-text {
+    color: #b4926f;
+    font-style:italic;
+    width:95%;
+    text-align:center;
+    padding: 0px 10px 0px 6px;
+}
+
+
+
+.content-area2 {
+    height: 100%;
+    width: 18%;
+    background-color: #5b5a5a;
+    background-image: url('../imgb/img-gradient.png');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    vertical-align: top;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.home-images {
+    text-align: right center;
+    
+    
+}
+
+    .home-images img {
+        width:85%;             
+        height: auto;
+        top: 0px;
+        left:350px;
+        margin-left:300px;
+        position:fixed;
+        
+    }
+
+/*Controls the style of the footer*/
+.footer {
+    font-size: 27px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    line-height: 40px;
+    text-transform:  lowercase;
+    vertical-align: bottom;
+    background-image: url('../imgb/bg-flourish2.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: contain;
+    height: 100%;
+}
+
+    /*Controls the links in the footer*/
+    .footer a:link {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .footer a:visited {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .footer a:hover {
+        color: #b4926f;
+        text-decoration: none;
+    }
+
+    .footer a:active {
+        color: #b4926f;
+        text-decoration: none;
+    }
+
+.footer2 {
+    color: #ffffff;
+    padding: 0px;
+    vertical-align: bottom;
+    font-size: 9px;
+    height: 35px;
+    font-family: 'Times New Roman';
+    text-align: left;
+    background-image: url('../imgb/img-footer.png');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    background-size: contain;
+    z-index: 20;
+    position: relative;
+    bottom: 0px;
+}
+
+.footer3-gallery {
+    color: #ffffff;
+    padding: 0px;
+    vertical-align: bottom;
+    font-size: 9px;
+    height: 35px;
+    font-family: 'Times New Roman';
+    text-align: left;
+    background-image: url('../imgb/img-footer.png');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    z-index: 20;
+    position: relative;
+    bottom: 0px;
+}
+.datalist-galleryimg {
+    padding:0px 0px 35px 0px;
+    height:100%;
+}
+
+
+.gallery-desc {
+    background-color: #5b5a5a;
+    background-image: url('../imgb/img-gradient.png');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    background-attachment:fixed;
+    background-size:100% 60%;
+    vertical-align: top;
+    font-size: 16px;
+    padding: 88px 50px 0px 50px;
+    width:29.5%;
+    height:80%;
+}
+
+    .gallery-desc div {
+        height: 100%;
+        overflow: auto;
+        scrollbar-base-color: #000000;
+        scrollbar-3dlight-color: #C0C0C0;
+        scrollbar-highlight-color: #ffffff;
+        scrollbar-track-color: #000000;
+        scrollbar-arrow-color: black;
+        scrollbar-shadow-color: #5b5a5a;
+    }
+.highlight {
+    font-family: Arial;
+        text-transform:uppercase;
+        font-weight:normal;
+        font-size:18px;
+}
+
+
+.gallery-title {
+    font-family: 'Times New Roman', serif;
+    font-size: 24px;
+}
+
+.gallery-caption {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family:Arial;
+}
+
+a.gallery-caption:link {
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+a.gallery-caption:visited {
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a.gallery-caption:hover {
+    color: #b4916e;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.gallery-images {
+    background-color: #000000;
+    text-align: center;
+    vertical-align: top;
+    padding: 80px 0px 0px 0px;
+}
+
+.gallery-image-wide {
+    height: auto;
+    width: 100%;
+    display:block;
+    position:relative;
+}
+
+.gallery-image-tall {
+    width:41%;
+    height:auto;
+
+}
+
+/*This is for the Web Page Title that goes in the jc controls and appears on every page*/
+.webpage-title {
+    color: #327600;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+/*styles the bullets on a form*/
+.form-bulletlist {
+    color: #327600;
+    font-weight: 100;
+}
+
+/*Styles the form text boxes*/
+.form-style {
+    border: 2px #327600 solid;
+    background-color: #d5feb6;
+    color: #555555;
+    border-radius: 4px;
+    height: 23px;
+    padding-left: 10px;
+    font-family: Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+
+/*This is for the link styles*/
+.link a:link {
+    color: #327600;
+    text-decoration: none;
+}
+
+.link a:visited {
+    color: #327600;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: #8bd951;
+    text-decoration: none;
+}
+
+.link a:active {
+    color: #8bd951;
+    text-decoration: none;
+}
+
+/*This is for read more links - if the Read More links are different from the normal links*/
+.link-readmore a:link {
+    color: #327600;
+    text-decoration: none;
+}
+
+.link-readmore a:visited {
+    color: #327600;
+    text-decoration: none;
+}
+
+.link-readmore a:hover {
+    color: #8bd951;
+    text-decoration: none;
+}
+
+.link-readmore a:active {
+    color: #8bd951;
+    text-decoration: none;
+}
+
+/*Controls the font style of the subnav*/
+.subnav-link {
+    font-size: 22px;
+    color: red;
+    font-weight: normal;
+
+}
+
+    .subnav-link a:link {
+        color: pink;
+        text-decoration: none;
+    }
+
+        .subnav-link a:hover {
+        color: #b4926f;
+        text-decoration: none;
+    }
+
+
+    .subnav-link a:visited {
+        color: orange;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+/*START--This info is only needed if there is a drop-down menu*/
+.dropinfo { /*header of 1st demo*/
+    cursor: hand;
+    cursor: pointer;
+    color: #327600;
+}
+
+.openinfo { /*class added to contents of 1st demo when they are open*/
+}
+
+.theinfo {
+    color: #8bd951;
+}
+
+.openlanguage { /*class added to contents of 2nd demo when they are open*/
+    color: green;
+}
+
+.closedlanguage { /*class added to contents of 2nd demo when they are closed*/
+    color: red;
+}
+/*END--This info is only needed if there is a drop-down menu*/
+
+.separatorfield-vertical {
+    width: 50px;
+    background-image: url('../imgb/img-FeaturedBox.png');
+    background-repeat: repeat-y;
+    background-position: center top;
+    vertical-align: top;
+}
+
+.title {
+    font-family: 'Times New Roman', sans-serif;
+font-style: normal;
+font-weight: 400;
+    font-size: 35px;
+    text-transform:capitalize;
+}
+
+.subtitle {
+    font-family: 'Times New Roman', sans-serif;
+    font-style: normal;
+font-weight: 400;
+    font-size: 24px;
+    text-transform:capitalize;
+}
+
+.mapbox-content {
+    background-color: #474747;
+    vertical-align: top;
+    padding-left: 2px;
+    padding-bottom: 13px;
+    width: 47%;
+    text-align: left;
+}
+
+    .mapbox-content h1 {
+        font-family: 'Times New Roman', serif;
+        font-size: 36px;
+        font-weight: bold;
+        color: #afafaf;
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+    }
+
+    .mapbox-content h2 {
+        font-size: 28px;
+        color: #FFFFFF;
+        padding: 0px;
+        margin: 0px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .mapbox-content h3 {
+        font-size: 24px;
+        color: #FFFFFF;
+        font-weight: 300;
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+    }
+
+.overviewbar {
+    border:none;
+    font-family: "sorts-mill-goudy",serif;
+    font-size: 20px;
+    height: 18px;
+    text-align: center;
+    padding: 10px 0px;
+    margin:0px;
+    position: static;
+}
+
+.overview-image {
+    border: none;
+    width: 100%;
+    height:509px;
+    display: block;
+    margin: 0px;
+   
+}
+
+h1 {
+    font-family: 'Times New Roman', sans-serif;
+font-style: normal;
+font-weight: 400;
+    font-size: 43px;
+    text-transform:capitalize;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.featurebox {
+    background-color: #313131;
+    vertical-align: top;
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 6px;
+    width: 33%;
+}
+
+.featureboxset {
+    padding: 0px;
+    border-spacing: 34px;
+    border-collapse: separate;
+    width: 97%;
+    font-size: 16px;
+}
+
+    .featureboxset h1 {
+        font-family: "nimbus-sans",sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+.featureboximage {
+    border: none;
+    float: left;
+    padding-right: 10px;
+}
+
+.formfield {
+    border: 1px solid #b7936f;
+    border-radius: 6px;
+    height: 22px;
+    font-size: 16px;
+    color: #b7936f;
+    padding-left:3px;
+    font-family:Arial;
+}
+
+.formminor {
+    font-size: 10pt;
+    color: #b7936f;
+}
+
+.errormsg {
+    color: #f09c69;
+    font-size: 11pt;
+}
+
+a.contact:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:25px;
+    text-transform:uppercase;
+}
+
+a.contact:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.contact:hover {
+    color: #b4926f;
+    text-decoration: none;
+}
+
+.submenulink {
+    font-size: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+    .submenulink a:link {
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .submenulink a:visited {
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .submenulink a:hover {
+        color: #b4926f;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+
+.SubNavMenuLinks {
+
+
+}
+
+.link a:link {
+    font-family: "nimbus-sans",sans-serif;
+    color: #FFFFFF;
+        text-decoration: none;
+}
+.link a:visited {
+    color: #FFFFFF;
+        text-decoration: none;
+}
+.link a:hover {
+    color: #b4926f;
+        text-decoration: none;
+}
+.link a:active {
+    color: #b4926f;
+        text-decoration: none;
+}

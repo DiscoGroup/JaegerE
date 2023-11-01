@@ -1,0 +1,415 @@
+/* ######### Matt Black Strip Main Menu Bar CSS ######### */
+
+
+.menuwithbox {
+background-position: 10px 15px;
+    background-image:url('../imgb/btnon-Mouseover.jpg');
+    background-repeat:no-repeat;
+    color:#b4926f;
+
+}
+
+a.menuwithbox:link {
+color:#b4926f;
+}
+a.menuwithbox:visited {
+color:#b4926f;
+}
+
+a.menuwithbox:hover {
+color:#b4926f;
+}
+
+.menunobox {
+    color:#b4926f;
+}
+
+a.menunobox:link {
+color:#b4926f;
+}
+a.menunobox:visited {
+color:#b4926f;
+text-decoration:none;
+}
+
+a.menunobox:hover {
+color:#b4926f;
+}
+
+a.menunobox:hover {
+color:#b4926f;
+}
+
+
+.menuwithboxh {
+    background-position: 10px 12px;
+    background-image:url('../imgb/btnon-Mouseover-Gallery.jpg');
+    background-repeat:no-repeat;
+    color:#b4926f;
+
+}
+
+a.menuwithboxh:link {
+color:#b4926f;
+}
+a.menuwithboxh:visited {
+color:#b4926f;
+}
+
+a.menuwithboxh:hover {
+color:#b4926f;
+}
+
+.mattblackmenu ul{
+margin: 0;
+vertical-align:middle;
+padding: 0;
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight:100;
+text-transform:uppercase;
+font-size:47px;
+list-style-type: none;
+border-style:none; 
+border-width:0px;
+overflow: hidden;
+height:60px;
+width:100%;
+text-align:center;
+ cursor:pointer;
+}
+
+.mattblackmenu li{
+display: inline;
+margin: 0;
+margin-top: 8px;
+ margin-right:8px;
+ text-align:center;
+}
+
+.mattblackmenu li a{
+text-align:center;
+text-decoration: none;
+margin: 0;
+padding: 6px 8px 0px 25px; /*padding inside each tab*/
+color: white;
+}
+
+.mattblackmenu li a:visited{
+color: white;
+
+}
+
+.mattblackmenu li a:hover{
+background-position: 10px 17px;
+    background-image:url('../imgb/btnon-Mouseover.jpg');
+    background-repeat:no-repeat;
+    color:#b4926f;
+
+
+
+
+}
+
+.mattblackmenu a.selected{
+/*background: red; background of tab with "selected" class assigned to its LI */
+background-image:none;
+}
+
+
+/*This css code below is for the vertical menu*/
+.mattblackmenu-side ul{
+margin: 0;
+vertical-align:middle;
+padding: 0;
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight:100;
+text-transform:uppercase;
+font-size:47px;
+list-style-type: none;
+border-style:none; 
+border-width:0px;
+overflow: hidden;
+height:270px;
+width:100%;
+text-align:center;
+ cursor:pointer;
+ line-height:70px;
+
+}
+
+.mattblackmenu-side li{
+display: inline;
+margin: 0;
+margin-top: 8px;
+ margin-right:8px;
+ text-align:center;
+
+}
+
+.mattblackmenu-side li a{
+text-align:center;
+text-decoration: none;
+margin: 0;
+padding: 6px 8px 0px 25px; /*padding inside each tab*/
+color: white;
+
+}
+
+.mattblackmenu-side li a:visited{
+color: white;
+
+}
+
+.mattblackmenu-side li a:hover{
+background-position: 10px 17px;
+    background-image:url('../imgb/btnon-Mouseover.jpg');
+    background-repeat:no-repeat;
+    color:#b4926f;
+
+
+
+
+}
+
+.mattblackmenu-side a.selected{
+/*background: red; background of tab with "selected" class assigned to its LI */
+background-image:none;
+}
+
+/*This css code below is for the vertical menu*/
+.mattblackmenu-side1 ul{
+margin: 0;
+vertical-align:top;
+padding: 0;
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight:100;
+text-transform:uppercase;
+font-size:36px;
+list-style-type: none;
+border-style:none; 
+border-width:0px;
+overflow: hidden;
+height:100%;
+width:100%;
+text-align:center;
+ cursor:pointer;
+ line-height:44px;
+
+}
+
+.mattblackmenu-side1 li{
+display: inline;
+margin: 0;
+margin-top: 8px;
+ margin-right:8px;
+ text-align:center;
+
+}
+
+.mattblackmenu-side1 li a{
+text-align:center;
+text-decoration: none;
+margin: 0;
+padding: 6px 8px 0px 25px; /*padding inside each tab*/
+color: white;
+
+}
+
+.mattblackmenu-side1 li a:visited{
+
+}
+
+.mattblackmenu-side1 li a:hover{
+background-position: 10px 15px;
+    background-image:url('../imgb/btnon-Mouseover.jpg');
+    background-repeat:no-repeat;
+    color:#b4926f;
+}
+
+.mattblackmenu-side1 a.selected{
+/*background: red; background of tab with "selected" class assigned to its LI */
+background-position: 10px 15px;
+    background-image:url('../imgb/btnon-Mouseover.jpg');
+    background-repeat:no-repeat;
+    color:#b4926f;
+}
+
+
+/*22222 This css code below is for the vertical menu*/
+.mattblackmenu-side2 ul{
+margin: 0px;
+vertical-align:middle;
+padding: 0px;
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight:100;
+text-transform:uppercase;
+ font-size: 25px;
+list-style-type: none;
+border-style:none; 
+overflow: hidden;
+height:100%;
+width:100%;
+text-align:center;
+ cursor:pointer;
+
+}
+
+.mattblackmenu-side2 li{
+display: inline;
+margin: 0px;
+padding:0px;
+ text-align:center;
+ width:100%;
+}
+
+.mattblackmenu-side2 li a{
+text-align:center;
+text-decoration: none;
+margin: 0px;
+padding: 10px; /*padding inside each tab*/
+color: white;
+width:100%;
+}
+
+.mattblackmenu-side2 li a:visited{
+
+
+}
+
+.mattblackmenu-side2 li a:hover{
+    color:#b4926f;
+}
+
+.mattblackmenu-side2 a.selected{
+/*background: red; background of tab with "selected" class assigned to its LI */
+    color:#b4926f;
+}
+
+
+
+/*33333333This css code below is for the gallery menu*/
+.mattblackmenu-side3 ul{
+margin: 0;
+vertical-align:middle;
+padding: 0;
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight:100;
+text-transform:uppercase;
+font-size:28px;
+list-style-type: none;
+border:none;
+overflow: hidden;
+width:100%;
+text-align:center;
+ cursor:pointer;
+ float:left;
+}
+
+.mattblackmenu-side3 li{
+display:inline;
+margin-top: 0px;
+margin-right:0px;
+margin-left:0px;
+margin-bottom:0px;
+padding-top:0px;
+padding-left:0px;
+padding-right:0px;
+padding-bottom:0px;
+text-transform:uppercase;
+vertical-align:middle;
+border:none;
+
+
+}
+
+.mattblackmenu-side3 li a{
+text-align:center;
+text-decoration: none;
+margin: 0;
+padding: 6px 8px 0px 25px; /*padding inside each tab*/
+color: white;
+width:110px;
+
+}
+
+.mattblackmenu-side3 li a:visited{
+
+}
+
+.mattblackmenu-side3 li a:hover{
+background-position: 10px 12px;
+    background-image:url('../imgb/btnon-Mouseover-Gallery.jpg');
+    background-repeat:no-repeat;
+    color:#b4926f;
+}
+
+.mattblackmenu-side3 a.selected{
+/*background: red; background of tab with "selected" class assigned to its LI */
+background-position: 10px 12px;
+    background-image:url('../imgb/btnon-Mouseover-Gallery.jpg');
+    background-repeat:no-repeat;
+    color:#b4926f;
+}
+
+
+/*444444 This css code below is for the gallery menu*/
+.mattblackmenu-side4 ul{
+margin: 0px;
+vertical-align:middle;
+padding: 0px;
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight:100;
+text-transform:uppercase;
+ font-size: 22px;
+ text-align:right;
+list-style-type: none;
+border-style:none; 
+overflow: hidden;
+width:100%;
+height:40px;
+ cursor:pointer;
+
+}
+
+.mattblackmenu-side4 li{
+display: inline;
+margin: 0px;
+padding:0px;
+ text-align:center;
+ width:100%;
+}
+
+.mattblackmenu-side4 li a{
+text-align:right;
+text-decoration: none;
+margin: 0px;
+padding: 10px; /*padding inside each tab*/
+color: white;
+width:100%;
+}
+
+.mattblackmenu-side4 li a:visited{
+
+
+}
+
+.mattblackmenu-side4 li a:hover{
+
+    color:#b4926f;
+
+
+
+
+}
+
+.mattblackmenu-side4 a.selected{
+/*background: red; background of tab with "selected" class assigned to its LI */
+    color:#b4926f;
+
+}

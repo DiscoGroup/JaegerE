@@ -1,0 +1,298 @@
+/* ######### Drop Down DIVs CSS ######### */
+
+
+.ddsubmenustyle, .ddsubmenustyle div{ /*topmost and sub DIVs, respectively*/
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size:30px;
+margin: 0px;
+text-align:center;
+padding-top: 0px;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+background: #000000;
+border: 0px solid #e1eaee;
+border-bottom-width: 0;
+visibility: hidden;
+z-index: 100;
+
+}
+
+.ddsubmenustyle ul{
+margin: 0;
+padding: 8px 0px 8px 10px;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+border: 0px none;
+text-transform:uppercase;
+text-align:center;
+}
+
+.ddsubmenustyle li a{
+display: block;
+width: 360px; /*width of menu (not including side paddings)*/
+color: #FFFFFF;
+background-color: #000000;
+text-decoration: none;
+text-align:left;
+padding: 4px 5px;
+border:none;
+}
+
+* html .ddsubmenustyle li{ /*IE6 CSS hack*/
+display: inline-block;
+text-align:center;
+width: 170px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle li a:hover{
+background-color: #000000;
+color: #b4926f;
+}
+
+
+.ddiframeshim{
+position: fixed;
+z-index: 1;
+background: transparent;
+border-width: 0;
+width: 0;
+height: 0;
+display: block;
+
+}
+
+
+
+/*1111This css code below is for the side menu*/
+.ddsubmenustyle1, .ddsubmenustyle-side1 div{ /*topmost and sub DIVs, respectively*/
+                                             
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size:22px;
+margin-left: -4px;
+text-align:center;
+padding-top: 0px;
+position:fixed;
+left: 0;
+top: 0;
+list-style-type: none;
+border:none;
+visibility: hidden;
+background: #000000;
+border:none;
+border-bottom-width: 0;
+z-index: 100;
+border-radius:5px;
+padding-right:10px;
+}
+
+.ddsubmenustyle1 ul{
+margin: 0;
+padding: 8px 0px 8px 10px;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+border: 0px none;
+text-transform:uppercase;
+text-align:center;
+
+}
+
+.ddsubmenustyle1 li a{
+display: block;
+width: 280px; /*width of menu (not including side paddings)*/
+color: #FFFFFF;
+background-color: #000000;
+text-decoration: none;
+text-align:left;
+padding: 4px 5px;
+border:none;
+}
+
+* html .ddsubmenustyle1 li{ /*IE6 CSS hack*/
+display: inline-block;
+text-align:center;
+width: 170px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle1 li a:hover{
+background-color: #000000;
+color: #b4926f;
+}
+
+
+/*2222This css code below is for the side menu*/
+.ddsubmenustyle2, .ddsubmenustyle-side2 div{ /*topmost and sub DIVs, respectively*/
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size:22px;
+margin-left: -2px;
+text-align:center;
+padding: 0px;
+position: fixed;
+left: 0px;
+top: 0px;
+list-style-type: none;
+background: #000000;
+border:none;
+border-bottom-width: 0;
+z-index: 100;
+border-radius:5px;
+padding-right:10px;
+}
+
+.ddsubmenustyle2 ul{
+margin: 0;
+padding: 8px 0px 8px 10px;
+position: absolute;
+left: 0px;
+top: 0px;
+list-style-type: none;
+border: 0px none;
+text-transform:uppercase;
+text-align:center;
+}
+
+.ddsubmenustyle2 li a{
+display: block;
+width: 280px; /*width of menu (not including side paddings)*/
+color: #FFFFFF;
+background-color: #000000;
+text-decoration: none;
+text-align:left;
+padding: 4px 5px;
+border:none;
+}
+
+* html .ddsubmenustyle2 li{ /*IE6 CSS hack*/
+display: inline-block;
+text-align:center;
+width: 170px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle2 li a:hover{
+background-color: #000000;
+color: #b4926f;
+}
+
+
+/*3333This css code below is for the side menu*/
+.ddsubmenustyle3, .ddsubmenustyle-side3 div{ /*topmost and sub DIVs, respectively*/
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size:22px;
+margin-left: -3px;
+text-align:center;
+padding: 0px;
+position: absolute;
+left: -80px;
+top: 0;
+list-style-type: none;
+background-color:#000000;
+border: 0px solid #e1eaee;
+border-bottom-width: 0;
+visibility: hidden;
+z-index: 100;
+border-radius:5px;
+padding-right:10px;
+}
+
+.ddsubmenustyle3 ul{
+margin: 0;
+padding: 8px 0px 8px 10px;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+border: 0px none;
+text-transform:uppercase;
+text-align:center;
+}
+
+.ddsubmenustyle3 li a{
+display: block;
+width: 275px; /*width of menu (not including side paddings)*/
+color: #FFFFFF;
+background-color: #000000;
+text-decoration: none;
+text-align:left;
+padding: 4px 5px;
+border:none;
+}
+
+* html .ddsubmenustyle3 li{ /*IE6 CSS hack*/
+display: inline-block;
+text-align:center;
+width: 170px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle3 li a:hover{
+background-color: #000000;
+color: #b4926f;
+}
+
+
+/*444444This css code below is for the side menu*/
+.ddsubmenustyle4, .ddsubmenustyle-side4 div{ /*topmost and sub DIVs, respectively*/
+font-family: "nimbus-sans",sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size:22px;
+margin: -2px;
+text-align:center;
+padding-top: 0px;
+position: absolute;
+left: 0px;
+top: 0px;
+list-style-type: none;
+background: #000000;
+border:none;
+border-bottom-width: 0;
+z-index: 100;
+border-radius:5px;
+padding-right:10px;
+}
+
+.ddsubmenustyle4 ul{
+margin: 0;
+padding: 8px 0px 8px 10px;
+position: absolute;
+left: 0px;
+top: 0px;
+list-style-type: none;
+border: 0px none;
+text-transform:uppercase;
+text-align:center;
+}
+
+.ddsubmenustyle4 li a{
+display: block;
+width: 280px; /*width of menu (not including side paddings)*/
+color: #FFFFFF;
+background-color: #000000;
+text-decoration: none;
+text-align:left;
+padding: 4px 5px;
+border:none;
+}
+
+* html .ddsubmenustyle4 li{ /*IE6 CSS hack*/
+display: inline-block;
+text-align:center;
+width: 170px; /*width of menu (include side paddings of LI A*/
+}
+
+.ddsubmenustyle4 li a:hover{
+background-color: #000000;
+color: #b4926f;
+}
